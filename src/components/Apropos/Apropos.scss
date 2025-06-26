@@ -1,0 +1,64 @@
+@use "../../styles/abstracts/variables" as *;
+
+.apropos {
+  padding: $padding-section;
+  background-color: $color-blue-turquoise;
+  color: $color-white;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid $color-white;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+
+  }
+
+  &__image img {
+    width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  &__text {
+    max-width: 600px;
+
+    p {
+      margin: 1rem 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__btn {
+    margin-top: 1rem;
+    background-color: $color-white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
