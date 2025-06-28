@@ -1,4 +1,4 @@
-function FilterBar({ selectedFilter, onSelect }) {
+ function FilterBar({ selectedFilter, onSelect }) {
   const filters = ["Tous", "Projet professionnel", "Projet personnel"];
 
   return (

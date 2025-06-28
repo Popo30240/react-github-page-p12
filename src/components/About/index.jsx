@@ -1,16 +1,16 @@
-import "./Apropos.scss";
+import "./about.scss";
 import profilImage from "../../assets/images/picture-profil.jpg"; // adapte le nom réel ici
 
-function Apropos() {
+function about() {
   return (
-    <section id="apropos" className="apropos">
-      <h2 className="apropos__title">À propos de moi</h2>
-      <div className="apropos__container">
-        <div className="apropos__image">
+    <section id="about" className="about">
+      <h2 className="about__title">À propos de moi</h2>
+      <div className="about__container">
+        <div className="about__image">
           <img src={profilImage} alt="Mackiw Anthony portrait" />
         </div>
-        <div className="apropos__text">
-          <h3 className="apropos__subtitle">Intégrateur web, frontend.</h3>
+        <div className="about__text">
+          <h3 className="about__subtitle">Intégrateur web, frontend.</h3>
           <p>
             Passionné par le développement web, j’ai suivi une formation
             d’intégrateur web chez OpenClassrooms.  
@@ -22,11 +22,11 @@ function Apropos() {
             <br />
             Rigoureux et curieux, j’aime relever de nouveaux défis techniques pour offrir des solutions adaptées aux besoins des utilisateurs.
           </p>
-          <button className="apropos__btn">En savoir plus…</button>
+          <button className="about__btn">En savoir plus…</button>
         </div>
       </div>
     </section>
   );
 }
 
-export default Apropos;
+export default about;

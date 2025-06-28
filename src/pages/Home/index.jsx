@@ -1,13 +1,16 @@
 // Components
 import NavBar from '../../components/NavBar';
 import Banner from '../../components/Banner';
-import Apropos from '../../components/Apropos';
+import About from '../../components/About';
 import Project from '../../components/Project';
+import useFetch from '../../Hooks/useFetch';
 
 // Styles
 import './Home.scss';
 
 function Home() {
+
+  const projects = useFetch("/data.json");
 
   return (
     <>
@@ -16,8 +19,8 @@ function Home() {
       </header>
       <main>
         <Banner />
-        <Apropos />
-        <Project />
+        <About />
+        <Project projects={projects} />
       </main>
     </>
   );

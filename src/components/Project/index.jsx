@@ -1,17 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+//import { useNavigate } from "react-router-dom";
+
+// Components
 import Card from "../Card";
 import FilterBar from "../FilterBar";
+// Styles
 import "./Project.scss";
 
-function ProjectList() {
-  const [projects, setProjects] = useState([]);
+function ProjectList({ projects = [] }) {
   const [selectedType, setSelectedType] = useState("Tous");
-
-  useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
 
   const filtered = projects.filter((p) =>
     selectedType === "Tous" ? true : p.type === selectedType

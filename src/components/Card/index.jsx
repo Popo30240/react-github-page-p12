@@ -10,6 +10,7 @@ function ProjectCard({ project }) {
       <img src={project.logo} alt={project.title} />
       <h3>{project.title}</h3>
       <p>{project.description}</p>
+      <h4>{`Technologies utilisées: ${project.technologies}`} </h4>
     </a>
   );
 }
