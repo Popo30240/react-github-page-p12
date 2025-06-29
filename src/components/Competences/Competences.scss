@@ -1,0 +1,32 @@
+@use "../../styles/abstracts/variables" as *;
+
+.competences {
+  background-color: $color-blue-turquoise;
+  padding: $padding-section;
+  color: $color-white;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+
+    span {
+      color: $color-green-light;
+    }
+  }
+
+  .underline {
+    width: 30%;
+    height: 2px;
+    margin: 0 auto 2rem;
+    background-color: $color-red;
+  }
+
+  .competence-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,30 @@
+@use "../../styles/abstracts/variables" as *;
+
+.skillbar {
+  margin-bottom: 1.5rem;
+
+  .skillbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: $color-white;
+  }
+
+  .skillbar-track {
+    background-color: #e0e0e0;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+
+    .skillbar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, $color-red, $color-green-light);
+      border-radius: 6px;
+      transition: width 1.4s ease-out;
+    }
+  }
+}
