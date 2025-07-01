@@ -1,24 +1,16 @@
 @use "../../styles/abstracts/variables" as *;
 
 .project-section {
-  background-color: #0b1c3b;
+  background-color: $color-blue-navy;
   color: $color-white;
   min-height: 100vh;
   padding: $padding-section;
 
   h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: $font-size-responsive--title;
     font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-
-  .underline {
-    width: 190px;
-    height: 2px;
-    background: $color-white;
-    border-radius: 4px;
-    margin: 0 auto 2rem auto;
+    margin-bottom: $margin__bottom--title;
   }
 
   .filter-bar {
@@ -27,10 +19,15 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 2rem;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
 
     button {
       padding: 0.5rem 1.5rem;
       border-radius: 50px;
+      font-size: $font-size-responsive--button;
       font-weight: bold;
       border: 2px solid $color-white;
       background: transparent;
@@ -57,7 +54,11 @@
   }
 
   .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
+    word-break: break-word;  /* pour couper les mots longs */
     background: $color-white;
     color: $color-blue-navy;
     border-radius: 1rem;
@@ -78,13 +79,20 @@
     }
 
     h3 {
-      font-size: 1.1rem;
+      font-size: $font-size-responsive--text;
       font-weight: bold;
       margin-bottom: 0.5rem;
     }
 
-    p {
-      font-size: 0.9rem;
+    :nth-child(3) {
+      font-size: $font-size-responsive--text;
+      margin-bottom: 0.5rem;
+    }
+
+    :nth-child(4) {
+      font-size: $font-size-responsive--text;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
     }
   }
 }

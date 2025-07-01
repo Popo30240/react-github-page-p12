@@ -1,6 +1,7 @@
 @use "../../styles/abstracts/variables" as *;
 
-header {
+header,
+footer {
     background-color: $color-blue-turquoise; // Bleu de fond
-    padding-left: 5%;
+    padding-left: $padding-left__header-footer;
 }

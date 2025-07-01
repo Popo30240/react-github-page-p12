@@ -7,8 +7,8 @@ function Competences({ skills = [] }) {
       <h2>
         Mes <span>compétences</span>
       </h2>
-      <div className="underline"></div>
-      <div className="competence-list">
+      <hr className="underline--red"/>
+      <div className="competences__list">
         {skills.map((skill) => (
           <SkillBar key={skill.name} skill={skill} />
         ))}

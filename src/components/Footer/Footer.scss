@@ -1,0 +1,9 @@
+@use "../../styles/abstracts/variables" as *;
+
+.footer {
+  background-color: $color-blue-turquoise; 
+  padding: $padding__header-footer;
+  font-size: $font-size-responsive--header-footer;
+  color: $color-white;
+  font-family: $font-family; 
+}

@@ -5,6 +5,7 @@ function about() {
   return (
     <section id="about" className="about">
       <h2 className="about__title">À propos de moi</h2>
+      <hr className="underline--white"/>
       <div className="about__container">
         <div className="about__image">
           <img src={profilImage} alt="Mackiw Anthony portrait" />

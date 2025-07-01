@@ -16,7 +16,7 @@ function ProjectList({ projects = [] }) {
   return (
     <section id="projects" className="project-section">
       <h2>Mes projets</h2>
-      <div className="underline" />
+      <hr className="underline--white"/>
       <FilterBar selectedFilter={selectedType} onSelect={setSelectedType} />
       <div className="project-grid">
         {filtered.map((project) => (

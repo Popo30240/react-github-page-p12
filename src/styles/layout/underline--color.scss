@@ -1,0 +1,15 @@
+@use "../../styles/abstracts/variables" as *;
+
+.underline {
+
+    &--white {
+        width: $underline-width;
+        margin: $underline-margin;
+            border-color: $color-white;
+    }
+    &--red {
+        width: $underline-width;
+        margin: $underline-margin;
+            border-color: $color-red;
+    }
+}

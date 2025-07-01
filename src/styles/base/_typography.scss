@@ -1,7 +1,7 @@
-@use '../../styles/abstracts/variables' as var;
+@use '../../styles/abstracts/variables' as *;
 
 body {
-  font-family: var.$font-family;
+  font-family: $font-family;
 }
 
 

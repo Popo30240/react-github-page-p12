@@ -7,17 +7,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: $font-size-responsive--text;
     font-weight: 600;
     margin-bottom: 0.3rem;
     color: $color-white;
   }
 
   .skillbar-track {
-    background-color: #e0e0e0;
-    height: 12px;
+    background-color: #294c82;
+    height: 1rem;
     border-radius: 6px;
     overflow: hidden;
     width: 100%;
+    @media screen and (max-width: 768px) {
+      height: 0.5rem;
+      
+    }
 
     .skillbar-fill {
       height: 100%;

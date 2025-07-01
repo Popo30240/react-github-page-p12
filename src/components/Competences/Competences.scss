@@ -6,27 +6,24 @@
   color: $color-white;
   text-align: center;
 
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+  & h2 {
+    font-size: $font-size-responsive--title;
+    margin-bottom: $margin__bottom--title;
 
     span {
       color: $color-green-light;
     }
   }
 
-  .underline {
-    width: 30%;
-    height: 2px;
-    margin: 0 auto 2rem;
-    background-color: $color-red;
-  }
-
-  .competence-list {
+  &__list {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     max-width: 800px;
     margin: 0 auto;
+    @media screen and (max-width: 768px) {
+      gap:0;
+      
+    }
   }
 }

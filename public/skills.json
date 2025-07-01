@@ -1,37 +1,37 @@
 [
   {
     "name": "HTML - 5",
-    "level": 80,
+    "level": 90,
     "category": "Développement web"
   },
   {
     "name": "CSS - 3",
-    "level": 75,
+    "level": 80,
     "category": "Développement web"
   },
   {
     "name": "SASS",
-    "level": 70,
+    "level": 80,
     "category": "Développement web"
   },
   {
     "name": "JavaScript",
-    "level": 65,
+    "level": 85,
     "category": "Développement web"
   },
   {
     "name": "React",
-    "level": 60,
+    "level": 80,
     "category": "Frameworks"
   },
   {
     "name": "React Router",
-    "level": 55,
+    "level": 80,
     "category": "Frameworks"
   },
   {
     "name": "Vite",
-    "level": 55,
+    "level": 75,
     "category": "Environnement"
   },
   {
@@ -41,27 +41,32 @@
   },
   {
     "name": "Arma 3 Editor",
-    "level": 60,
+    "level": 95,
     "category": "Jeu vidéo"
   },
   {
     "name": "SQF",
-    "level": 50,
+    "level": 95,
     "category": "Jeu vidéo"
   },
   {
     "name": "C++",
+    "level": 35,
+    "category": "Jeu vidéo"
+  },
+  {
+    "name": "Enfusion",
     "level": 40,
     "category": "Jeu vidéo"
   },
   {
     "name": "Gimp 3",
-    "level": 75,
+    "level": 70,
     "category": "Design"
   },
   {
     "name": "DavinciResolve",
-    "level": 60,
+    "level": 80,
     "category": "Vidéo"
   }
 ]

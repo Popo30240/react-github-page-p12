@@ -1,11 +1,16 @@
 @use "../../styles/abstracts/variables" as *;
 
 .navBar {
-  padding: 1rem;
+  padding: $padding__header-footer;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 5rem;
+  font-size: $font-size-responsive--header-footer;
+  @media screen and (max-width: 768px) {
+    gap: 1rem;
+    flex-direction: column;   
+  }
 
   a {
     color: $color-white; // Blanc
