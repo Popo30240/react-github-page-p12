@@ -1,0 +1,21 @@
+@use "../../styles/abstracts/variables" as *;
+
+.NotFound {
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color:$color-blue-turquoise;
+  margin-bottom: 5%;
+  & h1 {
+    font-size: clamp(1rem, 20vw, 20rem);
+  }
+  & p,
+  & a {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    text-align: center ;
+  }
+}
+
