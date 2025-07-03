@@ -4,7 +4,7 @@ import NotFound from "./pages/404";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-github-page-p12">
     <div className="container__max1440">
       <Routes>
         <Route path="/" element={<Home />} />

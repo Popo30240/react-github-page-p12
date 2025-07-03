@@ -6,7 +6,10 @@ function useFetch(url) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(url)
+
+    const fullUrl = `${window.location.origin}${import.meta.env.BASE_URL}${url}`;
+
+    fetch(fullUrl)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Erreur lors du chargement");

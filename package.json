@@ -2,8 +2,6 @@
   "name": "mon-portefolio",
   "private": true,
   "homepage": "https://Popo30240.github.io/react-github-page-p12",
-  "description": "Mon portfolio personnel construit avec React et Vite",
-  "author": "Popo30240",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
