@@ -4,8 +4,11 @@ import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 // Sass
 import "./Banner.scss";
 
+// CV
+import CV from "../../assets/cv/Anthony_Mackiw_CV.pdf"; 
+
 // Images
-import bannerImage from "../../assets/images/banner-image.jpg"; // Remplace par ton image
+import bannerImage from "../../assets/images/banner-image.jpg"; 
 
 function Banner() {
   return (
@@ -26,7 +29,7 @@ function Banner() {
           <a href="#"><FaInstagram /></a>
         </div>
 
-        <a href="/Anthony_Mackiw_CV.pdf" className="banner__btn" download>
+        <a href={CV} className="banner__btn" download>
           Télécharger mon CV
         </a>
       </div>

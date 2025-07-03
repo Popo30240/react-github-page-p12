@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Page web dynamique avec JavaScript",
         "description": "Réalisation d’une page web interactive en JavaScript pur, avec des fonctionnalités dynamiques pour améliorer l’expérience utilisateur.",
-        "logo": "logos/javascript.svg",
+        "logo": "src/assets/logos/javascript.svg",
         "technologies": [
             "HTML",
             "CSS",
@@ -18,7 +18,7 @@
         "id": 2,
         "title": "Application web de location immobilière avec React",
         "description": "Développement du front-end d’une application de location immobilière avec React et React Router pour une navigation fluide et des composants dynamiques.",
-        "logo": "logos/react.svg",
+        "logo": "src/assets/logos/react.svg",
         "technologies": [
             "HTML",
             "CSS",
@@ -37,7 +37,7 @@
         "id": 3,
         "title": "Military Conflict — Mission Arma 3",
         "description": "Développement d’une mission immersive sur Arma 3 avec level design et recherche de nouvelles mécaniques de jeu inspirées des technologies militaires modernes.",
-        "logo": "logos/arma3.png",
+        "logo": "src/assets/logos/arma3.png",
         "technologies": [
             "Arma 3 Editor",
             "SQF",
