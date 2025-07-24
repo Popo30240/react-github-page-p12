@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./Banner.scss";
 
 // CV
-import CV from "../../assets/cv/Anthony_Mackiw_CV.pdf"; 
+import CV from "../../assets/cv/CV_Dev_Web.pdf"; 
 
 // Images
 import bannerImage from "../../assets/images/banner-image.jpg"; 
@@ -14,12 +14,10 @@ function Banner() {
   return (
     <section id="banner" className="banner">
       <div className="banner__content">
-        <p className="banner__intro">Bonjour, je suis</p>
         <h1 className="banner__name">Mackiw Anthony</h1>
-        <h2 className="banner__job">et je suis intégrateur web</h2>
+        <h2 className="banner__job">intégrateur web</h2>
         <p className="banner__desc">
-          Je conçois et intègre des sites web modernes, responsifs et optimisés
-          pour offrir la meilleure expérience utilisateur.
+          Concepteur et intégrateur des sites web modernes, au design adaptatif et optimisés pour offrir la meilleure expérience utilisateur.
         </p>
 
         <div className="banner__socials">
