@@ -1,30 +1,79 @@
 @use "../../styles/abstracts/variables" as *;
 
-.navBar {
-  padding: $padding__header-footer;
+.navBar__container {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 5rem;
-  font-size: $font-size-responsive--header-footer;
-  @media screen and (max-width: 768px) {
-    gap: 1rem;
-    flex-direction: column;   
-  }
+  justify-content: space-between;
+  align-items: center;
+  padding: $padding__header-footer;
+  position: relative;
+  min-height: 10vh;
 
-  a {
-    color: $color-white; // Blanc
-    text-decoration: none;
-    transition: all 0.3s ease;
+  .burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 1001;
 
-    &:hover {
-      color: $color-white;
-      text-shadow: 0 0 5px #000;
+    span {
+      height: 3px;
+      width: 100%;
+      background-color: $color-white;
+      border-radius: 2px;
+      transition: all 0.3s ease-in-out;
+      transform-origin: center;
     }
 
-    &.active {
-      color: $color-green-light; // Vert clair (pour le lien actif)
-      font-weight: bold;
+    &.open {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      span:nth-child(2) {
+        opacity: 0;
+      }
+
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+    }
+  }
+
+  .navBar {
+    display: flex;
+    gap: 5rem;
+    font-size: $font-size-responsive--header-footer;
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      &:hover {
+        text-shadow: 0 0 5px #000;
+        color: $color-green-light;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      gap: 1rem;
+      width: 100%;
+      padding-top: 1.2rem;
+      display: none;
+      z-index: 1000;
+
+      &.open {
+        display: flex;
+      }
     }
   }
 }

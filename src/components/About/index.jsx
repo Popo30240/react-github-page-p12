@@ -18,7 +18,8 @@ function about() {
           </p>
           <p>
             Mon objectif est de transformer des maquettes en sites performants, accessibles et au design adaptatif.
-            <br />
+          </p>
+          <p>
             Rigoureux et curieux, j’aime relever de nouveaux défis techniques pour offrir des solutions adaptées aux besoins des utilisateurs.
           </p>
           <button className="about__btn">En savoir plus…</button>

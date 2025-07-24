@@ -2,13 +2,13 @@
     {
         "id": 1,
         "title": "Page web dynamique avec JavaScript",
-        "description": "Réalisation d’une page web interactive en JavaScript pur, avec des fonctionnalités dynamiques pour améliorer l’expérience utilisateur.",
+        "description": "Réalisation d’une page web interactive en JavaScript, avec des fonctionnalités dynamiques pour améliorer l’expérience utilisateur.",
         "logo": "/react-github-page-p12/logos/javascript.svg",
         "technologies": [
-            "HTML",
-            "CSS",
-            "SASS",
-            "JavaScript"
+            " HTML ",
+            " CSS ",
+            " SASS ",
+            " JavaScript "
         ],
         "category": "Développement web",
         "type": "Projet professionnel",
@@ -20,14 +20,14 @@
         "description": "Développement du front-end d’une application de location immobilière avec React et React Router pour une navigation fluide et des composants dynamiques.",
         "logo": "/react-github-page-p12/logos/react.svg",
         "technologies": [
-            "HTML",
-            "CSS",
-            "SASS",
-            "JavaScript",
-            "React",
-            "React Router",
-            "Vite",
-            "Node.js"
+            " HTML ",
+            " CSS ",
+            " SASS ",
+            " JavaScript ",
+            " React ",
+            " React Router ",
+            " Vite ",
+            " Node.js "
         ],
         "category": "Développement web",
         "type": "Projet professionnel",
@@ -39,9 +39,9 @@
         "description": "Développement d’une mission immersive sur Arma 3 avec level design et recherche de nouvelles mécaniques de jeu inspirées des technologies militaires modernes.",
         "logo": "/react-github-page-p12/logos/arma3.png",
         "technologies": [
-            "Arma 3 Editor",
-            "SQF",
-            "C++"
+            " Arma 3 Editor ",
+            " SQF ",
+            " C++ "
         ],
         "category": "Jeu vidéo",
         "type": "Projet personnel",

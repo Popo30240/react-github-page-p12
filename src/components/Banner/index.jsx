@@ -15,7 +15,7 @@ function Banner() {
     <section id="banner" className="banner">
       <div className="banner__content">
         <h1 className="banner__name">Mackiw Anthony</h1>
-        <h2 className="banner__job">intégrateur web</h2>
+        <h2 className="banner__job">INTEGRATEUR WEB</h2>
         <p className="banner__desc">
           Concepteur et intégrateur des sites web modernes, au design adaptatif et optimisés pour offrir la meilleure expérience utilisateur.
         </p>
