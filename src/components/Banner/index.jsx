@@ -21,10 +21,10 @@ function Banner() {
         </p>
 
         <div className="banner__socials">
-          <a href="#"><FaFacebook /></a>
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGithub /></a>
-          <a href="#"><FaInstagram /></a>
+          <a href="https://www.facebook.com/" title="Facebook"><FaFacebook /></a>
+          <a href="https://www.linkedin.com/" title="LinkedIn"><FaLinkedin /></a>
+          <a href="https://github.com/" title="GitHub"><FaGithub /></a>
+          <a href="https://www.instagram.com/" title="Instagram"><FaInstagram /></a>
         </div>
 
         <a href={CV} className="banner__btn" download>
